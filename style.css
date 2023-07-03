@@ -57,7 +57,7 @@
 }
 .nav-login{
     display: flex;
-    margin-left:820px ;
+    margin-left:990px ;
 }
 .sgnin{
     margin-left: 8px;
@@ -176,6 +176,7 @@
 .deal-offer{
     margin-top: 100px;
     height: 657px;  
+    width: max-content;
     background-color: #202124;
     border: 2px solid black;
 }
@@ -264,17 +265,41 @@
     height: 370px;
     margin-left: 150px;
     display: flex;
+    gap: 40px;
     
 }
 .leg-sec{
     height: 156px;
     width: 133px;
-    margin-left: 20px;
     display: flex;
-    border: 2px solid black;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
+    color: white;
+    padding: 10px;
+    
+    
 }
 footer{
     background-color: #202124;
+    height: 500px;
+    width: 1767px;;
+    
 }
+.leg-sec p{
+    margin-top: 10px;
+}
+.img1{
+    display: flex;
+}
+.copy{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    color: white;
+    gap: 500px;
+}
+.copy-right{
+    margin-left: 600px;
+}
+
